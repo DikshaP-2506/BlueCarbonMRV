@@ -1,0 +1,11 @@
+// This file is for VS Code launch configurations for Flutter
+{
+  "configurations": [
+    {
+      "name": "Flutter Launch",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart"
+    }
+  ]
+}
