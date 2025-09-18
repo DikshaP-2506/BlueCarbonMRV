@@ -46,6 +46,12 @@ class WelcomeScreen extends StatelessWidget {
                   style: Theme.of(context).textTheme.bodyLarge,
                   textAlign: TextAlign.center,
                 ),
+                const SizedBox(height: 16),
+                Text(
+                  'This is a mobile-based app deployed on the web for demonstration purposes. THIS IS NOT A FINAL PROTOTYPE.',
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: Colors.red, fontWeight: FontWeight.bold),
+                  textAlign: TextAlign.center,
+                ),
                 const SizedBox(height: 32),
                 CustomButton(
                   label: 'Get Started',
